@@ -1,16 +1,20 @@
 body {
-  background-color: rgb(89, 63, 169);
+  background-color: rgb(135, 163, 168);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: whitesmoke;
   text-align: center;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   color: whitesmoke;
   text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 main {
   display: flex;
@@ -25,7 +29,11 @@ main {
   padding: 2rem;
   border-radius: 3rem;
   border: none;
-  background-image: linear-gradient(20deg, rgb(89, 63, 169), rgb(124, 95, 219));
+  background-image: linear-gradient(
+    20deg,
+    rgb(199, 199, 199),
+    rgb(95, 219, 219)
+  );
 }
 .link {
   color: white;

@@ -1,23 +1,30 @@
-let colorIngresado = prompt("Que color obtienes al mezclar rojo con amarillo?");
-let color = colorIngresado;
-if (color === "naranja") {
-  alert("Perfecto, ese es el color!");
-} else if (color === "Naranja") {
-  alert("Perfecto, hasta has puesto la mayuscula!.");
-} else {
-  alert("mmm...lindo color, pero no es el que estoy buscando.");
+let respuestaIngresada = prompt(
+  "Que color obtienes al mezclar Azul con Amarillo?"
+);
+let respuesta = respuestaIngresada.toLowerCase();
+while (respuesta != "verde") {
+  respuesta = prompt(
+    "Mmm...nope, no es ese el color! \nTip: en ingles se escribre 'Green'."
+  );
 }
+alert("El color de la esperanza!");
 
 alert("Siguiente pregunta...");
 
 let nombreIngresado = prompt("como es tu Nombre?");
-let nombre = nombreIngresado;
-if (nombre === "Emiliano") {
-  alert("Ya lo sabia, hasta lo puse en el Index.");
-} else if (nombre === "emiliano") {
-  alert(
-    "Creo que los nombres van con la primera letra en mayuscula. Intentalo de nuevo!"
-  );
-} else {
-  alert("No sos mi tutor...quien eres?");
+let nombre = nombreIngresado.toLowerCase();
+while (nombre != "emiliano") {
+  nombre = prompt("Intentalo de nuevo.");
+}
+alert(
+  "Fun Fact: Emiliano es de origen latino y significa 'Trabajador laborioso'."
+);
+
+alert("Uff, demasiadas preguntas...te parece si contamos hasta diez?");
+
+for (let i = 1; i <= 20; i++) {
+  if (i === 11) {
+    break;
+  }
+  alert(i);
 }
