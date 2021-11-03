@@ -17,7 +17,7 @@ while (nombre != "emiliano") {
   nombre = prompt("Intentalo de nuevo.");
 }
 alert(
-  "Fun Fact: Emiliano es de origen latino y significa 'Trabajador laborioso'."
+  "Fun Fact:\nEmiliano es de origen latino y significa 'Trabajador laborioso'."
 );
 
 alert("Uff, demasiadas preguntas...te parece si contamos hasta diez?");
